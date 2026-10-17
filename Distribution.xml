@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MVP Installer — double-click .pkg, no Terminal for buyers. -->
+<!-- Built with productbuild on Mac after MVP.vst3 exists. -->
+<installer-gui-script minSpecVersion="1">
+  <title>MVP — Melodic Vibration Processor</title>
+  <welcome file="Welcome.txt"/>
+  <conclusion file="Conclusion.txt"/>
+  <license file="License.txt"/>
+  <options customize="never" require-scripts="false"/>
+  <domains enable_currentUserHome="true" enable_localSystem="false"/>
+  <choices-outline>
+    <line choice="mvp"/>
+  </choices-outline>
+  <choice id="mvp" title="MVP">
+    <pkg-ref id="com.mvp.pkg"/>
+  </choice>
+  <pkg-ref id="com.mvp.pkg" version="1.0.0" onConclusion="none">MVP.pkg</pkg-ref>
+</installer-gui-script>

@@ -1,0 +1,7 @@
+Welcome to MVP — Melodic Vibration Processor.
+
+This installer puts MVP in your FL Studio plugins and puts the 2,000 presets in your Presets folder.
+
+Just click Continue, then Install. No setup needed.
+
+After install, open FL Studio > Manage plugins > Find plugins > MVP will pop up.

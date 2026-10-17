@@ -1,0 +1,5 @@
+MVP is installed.
+
+Open FL Studio > Manage plugins > Find plugins > MVP will pop up.
+
+Your presets are in Documents > MVP > Presets, organized by type: Bass, Synth, Pluck, Pad, Keys, Cinematic, Arp, FX.
